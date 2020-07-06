@@ -44,7 +44,7 @@ https://templatemo.com/tm-535-softy-pinko
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
                         <a href="#" class="logo">
-                            <img src="storage/logo.png" alt="N-WEB"/>
+                            <img src="images/logo.png" alt="N-WEB"/>
                         </a>
                         <!-- ***** Logo End ***** -->
                         <!-- ***** Menu Start ***** -->
@@ -97,7 +97,7 @@ https://templatemo.com/tm-535-softy-pinko
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.2s">
                             <div class="features-small-item">
                                 <div class="icon">
-                                    <i><img src="storage/featured-item-01.png" alt=""></i>
+                                    <i><img src="images/featured-item-01.png" alt=""></i>
                                 </div>
                                 <h5 class="features-title">Moderni strategija</h5>
                                 <p>Mes suprantame tinkamos strategijos svarbą verslo sėkmei, todėl tai vieną iš trijų mūsų vertybių</p>
@@ -109,7 +109,7 @@ https://templatemo.com/tm-535-softy-pinko
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.4s">
                             <div class="features-small-item">
                                 <div class="icon">
-                                    <i><img src="storage/featured-item-01.png" alt=""></i>
+                                    <i><img src="images/featured-item-01.png" alt=""></i>
                                 </div>
                                 <h5 class="features-title">Pasitikėjimas</h5>
                                 <p>Viena iš mūsų komandos stiprybių - pasitikėjimas. To tikimės ir savo klientų, bei pažadame jų nenuvilti.</p>
@@ -121,7 +121,7 @@ https://templatemo.com/tm-535-softy-pinko
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12" data-scroll-reveal="enter bottom move 50px over 0.6s after 0.6s">
                             <div class="features-small-item">
                                 <div class="icon">
-                                    <i><img src="storage/featured-item-01.png" alt=""></i>
+                                    <i><img src="images/featured-item-01.png" alt=""></i>
                                 </div>
                                 <h5 class="features-title">Augimas</h5>
                                 <p>Tikimės, kad mūsų pastangos leis jūsų verslui pasiekti tikslus, o bendradarbiavimas garantuos abipusę sėkmę. </p>
@@ -140,7 +140,7 @@ https://templatemo.com/tm-535-softy-pinko
         <div class="container">
             <div class="row">
                 <div class="col-lg-5 col-md-12 col-sm-12 align-self-center" data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
-                    <img src="storage/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                    <img src="images/left-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-6 col-md-12 col-sm-12 align-self-center mobile-top-fix">
@@ -180,7 +180,7 @@ https://templatemo.com/tm-535-softy-pinko
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">
-                    <img src="storage/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
+                    <img src="images/right-image.png" class="rounded img-fluid d-block mx-auto" alt="App">
                 </div>
             </div>
         </div>
@@ -205,42 +205,42 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="row">
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
-                            <i><img src="storage/work-process-item-01.png" alt=""></i>
+                            <i><img src="images/work-process-item-01.png" alt=""></i>
                             <strong>Idėja</strong>
                             <span>Iš kliento mes tikimės aiškios idėjos. </span>
                         </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
-                            <i><img src="storage/work-process-item-01.png" alt=""></i>
+                            <i><img src="images/work-process-item-01.png" alt=""></i>
                             <strong>Planas</strong>
                             <span>Darbų planą pristatysime jums.</span>
                         </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
-                            <i><img src="storage/work-process-item-01.png" alt=""></i>
+                            <i><img src="images/work-process-item-01.png" alt=""></i>
                             <strong>Diskusija</strong>
                             <span>Diskutuosime apie darbų eigą ir procesą.</span>
                         </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
-                            <i><img src="storage/work-process-item-01.png" alt=""></i>
+                            <i><img src="images/work-process-item-01.png" alt=""></i>
                             <strong>Darbas</strong>
                             <span>Vykdysime numatytą <br>planą.</span>
                         </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
-                            <i><img src="storage/work-process-item-01.png" alt=""></i>
+                            <i><img src="images/work-process-item-01.png" alt=""></i>
                             <strong>Patvirtinimas</strong>
                             <span>Lauksime <br> jūsų <br> patvirtinimo.</span>
                         </a>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-6 col-6">
                         <a href="#" class="mini-box">
-                            <i><img src="storage/work-process-item-01.png" alt=""></i>
+                            <i><img src="images/work-process-item-01.png" alt=""></i>
                             <strong>Šventimas :)</strong>
                             <span>Švesime <br> kartu su <br> jumis.</span>
                         </a>
@@ -275,7 +275,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="team-item">
                         <div class="team-content">
-                            <i><img src="storage/testimonial-icon.png" alt=""></i>
+                            <i><img src="images/testimonial-icon.png" alt=""></i>
                             <p>Nustebino greitis. Nors pažadėjo internetinę svetainę sukurti per savaite, jau po trijų dienų informavo, kad svetainė patalpinta serveryje.</p>
                             <div class="user-image">
                                 <img src="http://placehold.it/60x60" alt="">
@@ -293,7 +293,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="team-item">
                         <div class="team-content">
-                            <i><img src="storage/testimonial-icon.png" alt=""></i>
+                            <i><img src="images/testimonial-icon.png" alt=""></i>
                             <p>Į šią įmonę kreipiausi su išties nestandartiniu projektu ir nors darbų planavimas užtruko, tačiau darbai buvo atlikti nepriekaištingai.</p>
                             <div class="user-image">
                                 <img src="http://placehold.it/60x60" alt="">
@@ -311,7 +311,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="team-item">
                         <div class="team-content">
-                            <i><img src="storage/testimonial-icon.png" alt=""></i>
+                            <i><img src="images/testimonial-icon.png" alt=""></i>
                             <p>Su N-web dirbu daugiau nei vienerius metus. Visi projektai buvo atlikti tikrai kruopščiai ir kito partnerio WEB projektams net nesiruošiu ieškoti.</p>
                             <div class="user-image">
                                 <img src="http://placehold.it/60x60" alt="">
@@ -388,7 +388,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post-thumb">
                         <div class="img">
-                            <img src="storage/website.jpg" alt="">
+                            <img src="images/website.jpg" alt="">
                         </div>
                         <div class="blog-content">
                             <h3>
@@ -404,7 +404,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post-thumb">
                         <div class="img">
-                            <img style="" src="storage/socials.jpg" alt="">
+                            <img style="" src="images/socials.jpg" alt="">
                         </div>
                         <div class="blog-content">
                             <h3>
@@ -420,7 +420,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post-thumb">
                         <div class="img">
-                            <img src="storage/ads.jpg" alt="">
+                            <img src="images/ads.jpg" alt="">
                         </div>
                         <div class="blog-content">
                             <h3>
@@ -440,7 +440,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post-thumb">
                         <div class="img">
-                            <img src="storage/e-commerce.png" alt="">
+                            <img src="images/e-commerce.png" alt="">
                         </div>
                         <div class="blog-content">
                             <h3>
@@ -456,7 +456,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post-thumb">
                         <div class="img">
-                            <img src="storage/admin.jpg" alt="">
+                            <img src="images/admin.jpg" alt="">
                         </div>
                         <div class="blog-content">
                             <h3>
@@ -472,7 +472,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <div class="blog-post-thumb">
                         <div class="img">
-                            <img src="storage/design.png" alt="">
+                            <img src="images/design.png" alt="">
                         </div>
                         <div class="blog-content">
                             <h3>
@@ -622,7 +622,7 @@ https://templatemo.com/tm-535-softy-pinko
                     <div class="blog-post-thumb">
                         <div class="img-ex">
                             <div class="img-ex-caption"><h4>Arduinopagalba.lt</h4></div>
-                            <img src="storage/arduino.png" alt="">
+                            <img src="images/arduino.png" alt="">
                         </div>
                     </div>
                     </a>
@@ -632,7 +632,7 @@ https://templatemo.com/tm-535-softy-pinko
                     <div class="blog-post-thumb">
                         <div class="img-ex">
                             <div class="img-ex-caption"><h4>Asfotografas.lt</h4></div>
-                            <img src="storage/moon.png" alt="">
+                            <img src="images/moon.png" alt="">
                         </div>
                     </div>
                     </a>
@@ -642,7 +642,7 @@ https://templatemo.com/tm-535-softy-pinko
                     <div class="blog-post-thumb">
                         <div class="img-ex">
                             <div class="img-ex-caption"><h4>Uabmekora.lt</h4></div>
-                            <img src="storage/fence.png" alt="">
+                            <img src="images/fence.png" alt="">
                         </div>
                     </div>
                     </a>
