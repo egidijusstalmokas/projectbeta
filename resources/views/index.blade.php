@@ -151,7 +151,7 @@ https://templatemo.com/tm-535-softy-pinko
                         <p>Sėkmingam darbui mums būtina išsiaiškinti jūsų poreikius ir jūsų verslo tikslus. Tik suprasdami savo klientą galime tinkamai išpildyti
 						jo reikalavimus. Tad kodėl neprisėdus prie puodelio kavos ir nepasikalbėjus?</p>
                     </div>
-					<a style="float: right;" href="#" class="main-button">Planuoti susitikimą</a>
+					<a style="float: right;" href="{{ route('meeting') }}" class="main-button">Planuoti susitikimą</a>
                 </div>
             </div>
             <div class="row">
@@ -176,7 +176,7 @@ https://templatemo.com/tm-535-softy-pinko
 						Mūsų pareiga pasirūpinti, kad jūsų verslo vertybės ir siekiai atsispindėtų ir interneto platybėse, o internetinio tinklalapio ir soc. tinklų 
 						administravimas netaptu jūsų nuolatinio nuovargio priežastimi.</p>
                     </div>
-					<a href="#" class="main-button">Susisiekti</a>
+					<a href="{{ route('project') }}" class="main-button">Pildyti projekto formą</a>
                 </div>
                 <div class="col-lg-1"></div>
                 <div class="col-lg-5 col-md-12 col-sm-12 align-self-center mobile-bottom-fix-big" data-scroll-reveal="enter right move 30px over 0.6s after 0.4s">

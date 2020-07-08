@@ -18,6 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('meeting', 'MeetingController@index')->name('meeting');
+Route::get('project', 'ProjectController@index')->name('project');
 
 
 Auth::routes();

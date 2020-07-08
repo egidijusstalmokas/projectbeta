@@ -43,7 +43,7 @@ https://templatemo.com/tm-535-softy-pinko
                 <div class="col-12">
                     <nav class="main-nav">
                         <!-- ***** Logo Start ***** -->
-                        <a href="#" class="logo">
+                        <a href="/" class="logo">
                             <img src="images/logo.png" alt="N-WEB"/>
                         </a>
                         <!-- ***** Logo End ***** -->
@@ -69,27 +69,25 @@ https://templatemo.com/tm-535-softy-pinko
     <!-- ***** Header Area End ***** -->
 
     <!-- ***** Welcome Area Start ***** -->
-        <section class="section colored" id="contact-us">
+      <section class="section colored" id="contact-us">
         <div class="container">
             <!-- ***** Section Title Start ***** -->
             <div class="row">
                 <div class="col-lg-12">
                     <div class="center-heading">
-                        <h2 class="section-title">Rezervuokite susitikimo laiką</h2>
+                        <h2 class="section-title">Papasakokite apie jūsų projektą</h2>
                     </div>
                 </div>
                 <div class="offset-lg-3 col-lg-6">
                     <div class="center-text">
-                        <p>Pasirinkite susitikimo datą ir laiką, bei parašykite susitikimo temą.</p>
+                        <p>Pateiktite informaciją apie planuojamą projektą. Bei pasirinkite laiką iki kada norite, kad projektas būtų atliktas.</p>
                     </div>
                 </div>
             </div>
             <!-- ***** Section Title End ***** -->
 
             <div class="row">
-                <!-- ***** Contact Text Start ***** -->
-              
-                <!-- ***** Contact Text End ***** -->
+
 
                 <!-- ***** Contact Form Start ***** -->
                 <div class="col-lg-12 col-md-6 col-sm-12">
@@ -103,12 +101,12 @@ https://templatemo.com/tm-535-softy-pinko
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12">
                               <fieldset>
-                                <input name="company" type="text" class="form-control" id="company" placeholder="Įmonės pavadinimas" required="">
+                                <input name="company" type="email" class="form-control" id="company" placeholder="Įmonės pavadinimas" required="">
                               </fieldset>
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12">
                               <fieldset>
-                                <input name="phone" type="text" class="form-control" id="phone" placeholder="Jūsų telefono numeris" required="">
+                                <input name="phone" type="text" class="form-control" id="phone" placeholder="Telefono numeris" required="">
                               </fieldset>
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12">
@@ -118,25 +116,22 @@ https://templatemo.com/tm-535-softy-pinko
                             </div>
                             <div class="col-lg-12">
                               <fieldset>
-                                <textarea name="subject" rows="6" class="form-control" id="subject" placeholder="Susitikimo tema" required=""></textarea>
+                                <textarea name="message" rows="6" class="form-control" id="message" placeholder="Informacija apie planuojamą projektą..." required=""></textarea>
                               </fieldset>
                             </div>
-                              
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <label class="ml-3">Susitikimo data</label>
+                               <div class="col-lg-6 col-md-12 col-sm-12">
                               <fieldset>
-                                <input type="date" id="date" name="date">
+                                <input name="buget" type="text" class="form-control" id="buget" placeholder="Planuojamas projekto biudžetas" required="">
                               </fieldset>
-                            </div>  
+                            </div>
                             <div class="col-lg-6 col-md-12 col-sm-12">
-                                <label class="ml-3">Susitikimo laikas</label>
                               <fieldset>
-                                <input type="time" id="time" name="time">
+                                <input type="date" id="birthday" name="birthday" data-placeholder="Date of birth" required aria-required="true">
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
                               <fieldset>
-                                <button type="submit" id="form-submit" class="main-button">SIŲSTI</button>
+                                <button type="submit" id="form-submit" class="main-button">Pateikti</button>
                               </fieldset>
                             </div>
                           </div>
