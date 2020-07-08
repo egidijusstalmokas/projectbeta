@@ -17,9 +17,7 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/sample', function () {
-    return view('services.createweb');
-});
+Route::get('meeting', 'MeetingController@index')->name('meeting');
 
 
 Auth::routes();
