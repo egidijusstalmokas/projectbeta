@@ -17,10 +17,26 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('meeting', 'MeetingController@index')->name('meeting');
-Route::get('project', 'ProjectController@index')->name('project');
+Route::get('meeting', 'MeetingController@create')->name('meeting');
+Route::post('createmeeting', 'MeetingController@store');
+Route::get('meetinglist', 'MeetingController@show');
+
+
+Route::get('project', 'ProjectController@create')->name('project');
+Route::post('createproject', 'ProjectController@store');
+Route::get('projectlist', 'ProjectController@show');
 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/sendmail', function(){
+	$details = [
+		'title'=>'Laiškas nuo N-WEB.lt komandos',
+		'body'=>'Testinis laiškas'
+	];
+
+	\Mail::to('facelogija@gmail.com')->send(new \App\Mail\mailfor($details));
+	echo "OK";
+});
