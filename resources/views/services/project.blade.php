@@ -88,11 +88,11 @@ https://templatemo.com/tm-535-softy-pinko
 
             <div class="row">
 
-
                 <!-- ***** Contact Form Start ***** -->
                 <div class="col-lg-12 col-md-6 col-sm-12">
                     <div class="contact-form">
-                        <form id="contact" action="" method="get">
+                        <form id="contact" action="/createproject" enctype="multipart/form-data" method="post">
+                            @csrf
                           <div class="row">
                             <div class="col-lg-6 col-md-12 col-sm-12">
                               <fieldset>
@@ -101,7 +101,7 @@ https://templatemo.com/tm-535-softy-pinko
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12">
                               <fieldset>
-                                <input name="company" type="email" class="form-control" id="company" placeholder="Įmonės pavadinimas" required="">
+                                <input name="company" type="text" class="form-control" id="company" placeholder="Įmonės pavadinimas" required="">
                               </fieldset>
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12">
@@ -126,7 +126,7 @@ https://templatemo.com/tm-535-softy-pinko
                             </div>
                             <div class="col-lg-6 col-md-12 col-sm-12">
                               <fieldset>
-                                <input type="date" id="birthday" name="birthday" data-placeholder="Date of birth" required aria-required="true">
+                                <input type="date" id="date" name="date">
                               </fieldset>
                             </div>
                             <div class="col-lg-12">
