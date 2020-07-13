@@ -94,7 +94,8 @@ https://templatemo.com/tm-535-softy-pinko
                 <!-- ***** Contact Form Start ***** -->
                 <div class="col-lg-12 col-md-6 col-sm-12">
                     <div class="contact-form">
-                        <form id="contact" action="" method="get">
+                        <form id="contact1" action="/createmeeting" enctype="multipart/form-data" method="post">
+                            @csrf
                           <div class="row">
                             <div class="col-lg-6 col-md-12 col-sm-12">
                               <fieldset>
@@ -122,21 +123,15 @@ https://templatemo.com/tm-535-softy-pinko
                               </fieldset>
                             </div>
                               
-                            <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="col-lg-12 col-md-12 col-sm-12">
                                 <label class="ml-3">Susitikimo data</label>
                               <fieldset>
                                 <input type="date" id="date" name="date">
                               </fieldset>
                             </div>  
-                            <div class="col-lg-6 col-md-12 col-sm-12">
-                                <label class="ml-3">Susitikimo laikas</label>
-                              <fieldset>
-                                <input type="time" id="time" name="time">
-                              </fieldset>
-                            </div>
                             <div class="col-lg-12">
                               <fieldset>
-                                <button type="submit" id="form-submit" class="main-button">SIŲSTI</button>
+                                <button type="submit" id="form-submit" class="main-button">Planuoti</button>
                               </fieldset>
                             </div>
                           </div>

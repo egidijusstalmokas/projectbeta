@@ -14,7 +14,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return view('services.project');
+
     }
 
     /**
@@ -24,7 +24,7 @@ class ProjectController extends Controller
      */
     public function create()
     {
-        //
+         return view('services.project');
     }
 
     /**
@@ -35,7 +35,24 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //
+            $data = request()->validate([
+            'name' => 'required',
+            'company' => 'required',
+            'email' => 'required',
+            'phone' => 'required', 
+            'message'  => 'required',  
+            'buget' => 'required',
+            'date' => 'required',
+
+        ]);
+
+       \App\Project::create($request->all());
+            
+           
+
+      
+
+            return redirect('/');
     }
 
     /**
@@ -46,7 +63,10 @@ class ProjectController extends Controller
      */
     public function show(Project $project)
     {
-        //
+
+        $projectlist = Project::where('id', '1')->get();
+
+         dd($projectlist);
     }
 
     /**

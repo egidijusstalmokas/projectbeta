@@ -14,7 +14,6 @@ class MeetingController extends Controller
      */
     public function index()
     {
-         return view('services.meeting');
     }
 
     /**
@@ -24,7 +23,7 @@ class MeetingController extends Controller
      */
     public function create()
     {
-        //
+        return view('services.meeting');
     }
 
     /**
@@ -35,7 +34,23 @@ class MeetingController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       $data = request()->validate([
+            'name' => 'required',
+            'company' => 'required',
+            'email' => 'required',
+            'phone' => 'required', 
+            'subject'  => 'required',  
+            'date' => 'required',
+
+        ]);
+
+       \App\Meeting::create($request->all());
+            
+           
+
+      
+
+            return redirect('/');
     }
 
     /**
@@ -46,8 +61,10 @@ class MeetingController extends Controller
      */
     public function show(meeting $meeting)
     {
-        //
-    }
+         $meetinglist = Meeting::get();
+
+         dd($meetinglist);    
+     }
 
     /**
      * Show the form for editing the specified resource.

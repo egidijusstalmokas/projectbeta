@@ -41,5 +41,15 @@ class User extends Authenticatable
     {
         return $this->hasMany(Post::class)->orderBy('created_at', 'DESC');
     }
+
+public function project()
+    {
+        return $this->hasMany(Project::class)->orderBy('created_at', 'DESC');
+    }
+
+public function meeting()
+    {
+        return $this->hasMany(Meeting::class)->orderBy('created_at', 'DESC');
+    }
     
 }

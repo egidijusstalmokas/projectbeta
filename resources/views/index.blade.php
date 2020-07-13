@@ -534,7 +534,7 @@ https://templatemo.com/tm-535-softy-pinko
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="main-button">Užsakyti</a>
+                            <a href="{{ route('project') }}" class="main-button">Užsakyti</a>
                         </div>
                     </div>
                 </div>
@@ -564,7 +564,7 @@ https://templatemo.com/tm-535-softy-pinko
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="main-button">Užsakyti</a>
+                            <a href="{{ route('project') }}" class="main-button">Užsakyti</a>
                         </div>
                     </div>
                 </div>
@@ -594,7 +594,7 @@ https://templatemo.com/tm-535-softy-pinko
                             </ul>
                         </div>
                         <div class="pricing-footer">
-                            <a href="#" class="main-button">Užsakyti</a>
+                            <a href="{{ route('project') }}" class="main-button">Užsakyti</a>
                         </div>
                     </div>
                 </div>
