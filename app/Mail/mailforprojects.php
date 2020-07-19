@@ -11,16 +11,16 @@ class mailfor extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $meeting;
+    public $project;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($meeting)
+    public function __construct($project)
     {
-        $this->meeting = $meeting;
+        $this-> = $project;
     }
 
     /**
@@ -30,6 +30,6 @@ class mailfor extends Mailable
      */
     public function build()
     {
-        return $this->subject('Laiškas nuo N-WEB.lt')->view('mails.mailfor');
+        return $this->subject('Laiškas nuo N-WEB.lt')->view('mails.mailforprojects');
     }
 }

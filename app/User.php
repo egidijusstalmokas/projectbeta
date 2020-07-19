@@ -49,7 +49,7 @@ public function project()
 
 public function meeting()
     {
-        return $this->hasMany(Meeting::class)->orderBy('created_at', 'DESC');
+        return $this->hasMany(Meeting::class)->orderBy('created_at', 'desc');
     }
     
 }

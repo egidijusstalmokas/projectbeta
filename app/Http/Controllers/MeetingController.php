@@ -50,7 +50,7 @@ class MeetingController extends Controller
 
       
 
-            return redirect('/');
+            return redirect('/sendmail');
     }
 
     /**
@@ -61,9 +61,12 @@ class MeetingController extends Controller
      */
     public function show(meeting $meeting)
     {
-         $meetinglist = Meeting::get();
+         $meeting = Meeting::orderBy('created_at', 'desc')->limit(1)->get();
 
-         dd($meetinglist);    
+        
+        \Mail::to('egidijusstalmokas96@gmail.com')->send(new \App\Mail\mailfor($meeting));
+        
+        return redirect('/');
      }
 
     /**
@@ -74,7 +77,8 @@ class MeetingController extends Controller
      */
     public function edit(meeting $meeting)
     {
-        //
+        
+        
     }
 
     /**

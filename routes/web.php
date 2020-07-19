@@ -19,7 +19,7 @@ Route::get('/', function () {
 
 Route::get('meeting', 'MeetingController@create')->name('meeting');
 Route::post('createmeeting', 'MeetingController@store');
-Route::get('meetinglist', 'MeetingController@show');
+
 
 
 Route::get('project', 'ProjectController@create')->name('project');
@@ -31,12 +31,6 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/sendmail', function(){
-	$details = [
-		'title'=>'Laiškas nuo N-WEB.lt komandos',
-		'body'=>'Testinis laiškas'
-	];
+Route::get('sendmail','MeetingController@show');
 
-	\Mail::to('facelogija@gmail.com')->send(new \App\Mail\mailfor($details));
-	echo "OK";
-});
+
