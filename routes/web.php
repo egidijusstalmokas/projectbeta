@@ -19,18 +19,22 @@ Route::get('/', function () {
 
 Route::get('meeting', 'MeetingController@create')->name('meeting');
 Route::post('createmeeting', 'MeetingController@store');
+Route::get('sendmail','MeetingController@show');
 
 
 
 Route::get('project', 'ProjectController@create')->name('project');
 Route::post('createproject', 'ProjectController@store');
-Route::get('projectlist', 'ProjectController@show');
+Route::get('sendproject','ProjectController@show');
+
+Route::post('storem','MailmController@store');
+Route::get('sendm','MailmController@show');
 
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('sendmail','MeetingController@show');
+
 
 

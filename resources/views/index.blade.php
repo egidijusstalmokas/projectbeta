@@ -688,7 +688,8 @@ https://templatemo.com/tm-535-softy-pinko
                 <!-- ***** Contact Form Start ***** -->
                 <div class="col-lg-8 col-md-6 col-sm-12">
                     <div class="contact-form">
-                        <form id="contact" action="" method="get">
+                        <form id="contact" action="/storem" enctype="multipart/form-data" method="post">
+                        @csrf
                           <div class="row">
                             <div class="col-lg-6 col-md-12 col-sm-12">
                               <fieldset>

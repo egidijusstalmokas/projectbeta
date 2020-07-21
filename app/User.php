@@ -51,5 +51,10 @@ public function meeting()
     {
         return $this->hasMany(Meeting::class)->orderBy('created_at', 'desc');
     }
+
+    public function mailm()
+    {
+        return $this->hasMany(mailm::class)->orderBy('created_at', 'desc');
+    }
     
 }

@@ -51,6 +51,7 @@ class MeetingController extends Controller
       
 
             return redirect('/sendmail');
+            
     }
 
     /**

@@ -7,20 +7,21 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class mailforprojects extends Mailable
+class mailm extends Mailable
 {
     use Queueable, SerializesModels;
 
-   public $projects;
+
+   public $mailm;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($projects)
+    public function __construct($mailm)
     {
-        $this->projects = $projects;
+        $this->mailm = $mailm;
     }
 
     /**
@@ -30,5 +31,6 @@ class mailforprojects extends Mailable
      */
     public function build()
     {
-        return $this->subject('Laiškas nuo N-WEB.lt')->view('mails.mailforproject');
+        return $this->subject('Laiškas nuo N-WEB.lt')->view('mails.mailm');
     }}
+
